@@ -1,0 +1,22 @@
+#form1 #menuChange, #signChange, #iKosHereTitleChange, #iKosHereContentChange, #WITitleChange, #WIContentChange, #AboutTitleChange, 
+#AboutContentChange, #LearnTitleChange, #LearnContentChange, #tabChange, #IHChange, #SubTitleChange, #ContentChange, #signChange, #ContactChange, #DescChange, 
+#InfoChange{
+	display: inline-block;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	background-color: lightblue;
+}
+
+#form1{
+	text-align: center;
+	width: 100%;
+}
+#form1 #imageChange{
+
+	background-color: lightblue; 
+	margin-bottom: 20px;
+}
+#form1 input{
+	margin-left: auto;
+	margin-right: auto;
+}

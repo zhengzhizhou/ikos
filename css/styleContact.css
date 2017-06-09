@@ -1,0 +1,20 @@
+
+#container{
+	margin-left: 150px;
+	margin-right: auto;
+}
+#container #contact-form, #contact-info{
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+#container #contact-info h4, #Social_Media{
+	margin-left: 100px;
+}
+#container #contact-info #Social_Media li{
+	list-style-type: none;
+	display: inline-block;
+}
+#container #contact-info #Social_Media img{
+	height: 30px;
+}

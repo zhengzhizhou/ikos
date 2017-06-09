@@ -1,0 +1,10 @@
+#tabs{
+	height: 1000px;
+}
+#All{
+	width: 200px;
+}
+#All ul li{
+	display: inline-block;
+	float: left;
+}

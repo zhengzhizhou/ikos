@@ -1,0 +1,192 @@
+html, body{
+    width: 100%;
+}
+@font-face{
+	src: url(../font/Mark Simonson - Proxima Nova Extra Condensed Black.otf);
+	font-family: font1;
+}
+@font-face{
+	src: url(../font/Adobe-Garamond-Pro.ttf);
+	font-family: font2;
+}
+@font-face{
+	src: url(../font/SourceSansPro-Regular.otf);
+	font-family: font3;
+}
+#top{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+#top #head-bg{
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+#top #head-logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#top #head-logo img{
+  height: 80px;
+}
+#top #head-signup{
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+#top #head-signup ul{
+	list-style-type: none;
+}
+#top #head-signup ul li{
+	display: inline-block;
+	padding-right: 30px;
+}
+#top #head-signup ul li a{
+	font-family: font1;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 1);
+}
+#top #head-menu{
+	position: absolute;
+	top: 60px;
+	right: 10px;
+}
+#top #head-menu ul{
+	list-style-type: none;
+}
+#top #head-menu ul li{
+	display: inline-block;
+	padding-right: 30px;
+}
+#top #head-menu ul li a{
+	font-family: font1;
+	font-weight: 600;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 1);
+}
+#top #search-bar{
+	margin: auto;
+    top: 20px;
+    left:0;
+    right:0;
+    bottom:100px;
+    color:#fff;
+    height:100px;
+	position: absolute;
+}
+#top #search-bar #text strong{
+	font-size: 48px;
+}
+#top #search-bar #search_area{
+	margin-top: 20px;
+}
+#top #search-bar #search_area select{
+	width: 100px;
+	border-radius: 5px;
+	color: black;
+}
+#top #search-bar #search_area #location{
+	border-radius: 5px;
+	width: 250px;
+}
+#top #search-bar #search_area select, #location, #icon{
+	height: 34px;
+	margin-right: 5px;
+}
+#Intro{
+	margin-left: auto;
+	margin-right: auto;
+	width:70%;
+}
+#Intro #ITTitle{
+	font-family: font2;
+	font-size: 32px;
+	line-height: 1.2em;
+	text-transform: none;
+	letter-spacing: 0px;
+	font-weight: 400;
+	font-style: normal;
+}
+#Intro #ITContent{
+	font-family: font2;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.6em;
+	letter-spacing: 0px;
+	font-style:normal;
+}
+#Intro h2{
+	text-align: center;
+	display: block;
+}
+
+#VideoLink{
+	width: 100%;
+}
+#VideoLink #Learn, #About{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+#VideoLink #Learn h2, #About h2{
+	margin-left: 15%;
+	width: 70%;
+	font-family: font1;
+	color: rgb(61, 153, 145);
+	font-weight: 400;
+	font-size: 22px;
+	font-style: normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+#VideoLink #Learn iframe, #About iframe{
+	width: 400px;
+	height: 220px;
+	display: block;
+	margin:auto;
+}
+#VideoLink #Learn p, #About p{
+	color: rgba(26, 26, 26, 0.7);
+	font-family: font2;
+}
+
+.navbar{
+	background-color: black !important;
+    width: 100%;
+	margin-bottom: 0px !important;
+}
+.navbar #foot{
+	margin-left: 50px;
+	text-align: center;
+}
+.navbar #copyright{
+	margin-top: 100px;
+	margin-right: 50px;
+	float: right;
+}
+.navbar #foot, .navbar #copyright{
+	display: inline-block;
+}
+.navbar h2{
+	font-size: 18px;
+}
+.navbar h4{
+	font-size: 14px;
+}
+.navbar h2, .navbar h4, .navbar h6{
+	color: white;
+}
+#foot img{
+	height: 30px;
+}
+#foot ul{
+	list-style-type: none;
+}
+#foot ul li{
+	display: inline-block;
+}
